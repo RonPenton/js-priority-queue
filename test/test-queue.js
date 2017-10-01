@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-const PriorityQueue = require('../index');
+const PriorityQueue = require('../index').default;
 const numberCompare = ((a, b) => a - b);
 
 describe('integration tests', () => {

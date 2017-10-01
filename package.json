@@ -1,6 +1,6 @@
 {
   "name": "ts-priority-queue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Priority queue data structures",
   "main": "index.js",
   "scripts": {

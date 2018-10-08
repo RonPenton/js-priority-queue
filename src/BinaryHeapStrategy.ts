@@ -42,7 +42,7 @@ export default class BinaryHeapStrategy<T> implements QueueStrategy<T> {
         this.data.length = 0;
     }
 
-    public _bubbleUp(pos: number) {
+    public _bubbleUp(pos: number): any {
         while (pos > 0) {
             const parent = (pos - 1) >>> 1;
             if (this.comparator(this.data[pos], this.data[parent]) < 0) {
